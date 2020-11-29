@@ -1,0 +1,75 @@
+body{
+    background: url("t%C5%82o.jpg");
+    background-size: 200%;
+    background-attachment: fixed;
+    font-family: 'Castoro', serif;
+
+}
+div.container{
+    width: 1140 px;
+    margin: auto;
+    padding: 0 15 px;
+}
+
+div.main-content{
+    width  : 70%;
+    float: left;
+}
+
+
+div.sidebar{
+  width: 30%;
+    float: left;
+}
+
+div.content{
+    overflow: auto;
+}
+
+
+article, aside, footer, header, section{
+    display: block;
+}
+article, header, footer, aside{
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+}
+
+header{
+   margin-bottom: 15px;
+    
+}
+
+article{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    overflow: auto;
+    text-align: justify;
+}
+footer{
+    margin-top: 15px;
+       text-align: center;
+}
+figure{
+/*    float: left;*/
+    float: left;
+    border-right: 2px dashed;
+    border-bottom: 2px dashed;
+    
+    
+}
+
+figcaption{
+    text-align: center;
+}
+
+#html5 h2{
+    color: #E44D26;
+}
+header h1{
+    color: #1CB11D;
+}
+
+aside h2{
+    color: #0070BA;
+}
